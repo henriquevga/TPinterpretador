@@ -1,0 +1,11 @@
+d== b * b - 4 * a * c ;
+endp=
+javacard.instance.id=atrib2
+read(a);=
+read(b);=
+read(c);=
+writeln;=
+writeStr("Coeficiente=c= ");
+writeStr("d=");
+writeStr("Informe=os coeficientes da equacao do 2o grau");
+writeVar(d);=
